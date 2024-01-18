@@ -8,7 +8,7 @@ This python code aims at creating one file for all sounds of same category, to h
 
 """
 
-#read excel file
+#read excel file that contains the mapping between the name of the file and its category
 df = pd.read_excel('C:\\Users\\abiga\\Downloads\\ESC50.XLSX')
 
 # group by type
